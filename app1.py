@@ -10,9 +10,6 @@ sns.set_style('darkgrid')
 # ml_model_path = r'C:\Users\lenovo\Documents\Cyber-MADS\pull-three\Cyber_MADS\model_joblib'
 # ml_model = joblib.load(os.path.expanduser(ml_model_path))
 
-NEW_AWS_ACCESS_KEY_ID = "AKIAWUZ42VJKZJRRTH2M"
-NEW_AWS_SECRET_ACCESS_KEY = "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"
-
 bucket_name = 'cyber-mads-2'
 
 client = boto3.client(
