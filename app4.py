@@ -5,8 +5,7 @@ import streamlit as st
 # from aws import *
 
 
-NEW_AWS_ACCESS_KEY_ID = "AKIAWUZ42VJKZJRRTH2M"
-NEW_AWS_SECRET_ACCESS_KEY = "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"
+
 
 client = boto3.client(
 	"s3",
